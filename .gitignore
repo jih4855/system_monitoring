@@ -4,6 +4,9 @@
 .env.*.local
 *.env
 
+# 개발용 문서 (공개하지 않음)
+CLAUDE.md
+
 # API 키 및 보안 파일
 *.key
 *.pem
