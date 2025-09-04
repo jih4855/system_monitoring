@@ -2,11 +2,14 @@
 PyYAML>=6.0
 python-dotenv>=1.0.0
 
-# LLM API 지원
-google-generativeai>=0.3.0
+# LLM API 지원  
+google-generativeai>=0.8.0
 
 # HTTP 요청 (Discord webhook 등)
-requests>=2.31.0
+requests>=2.32.0
 
-# 추가 유틸리티
-psutil>=5.9.0
+# 시스템 모니터링
+psutil>=7.0.0
+
+# 보안 및 안정성
+certifi>=2025.8.3
