@@ -1,0 +1,135 @@
+# 환경변수 및 설정 파일
+.env
+.env.local
+.env.*.local
+*.env
+
+# API 키 및 보안 파일
+*.key
+*.pem
+*.p12
+*.pfx
+*secret*
+*password*
+config.local.*
+config.secret.*
+
+# 로그 파일
+*.log
+*.log.*
+logs/
+log/
+
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 가상환경
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+
+# IDE 및 에디터 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 백업 파일
+*.backup
+*.bak
+*.old
+*.orig
+*.save
+*.tmp
+
+# 데이터베이스 파일
+*.db
+*.sqlite
+*.sqlite3
+
+# 캐시 파일
+.cache/
+*.cache
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# 운영체제 관련
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 프로젝트 특정 파일
+system_update.log
+system_info.log
+discord_webhook.log
+backups/
+*.webhook
+
+# 테스트 및 커버리지 파일
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# 문서 빌드 파일
+docs/_build/
+.readthedocs.yml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# 실행 파일
+*.exe
+*.out
+*.app
+
+# 압축 파일 (민감 정보가 포함될 수 있음)
+*.zip
+*.tar.gz
+*.rar
+*.7z

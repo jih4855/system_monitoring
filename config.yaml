@@ -1,0 +1,6 @@
+LLM:
+  model: "gemini-2.5-flash"
+  system_prompt: "시스템 정보를 수집하고 분석하는 AI 어시스턴트입니다. 현재 시스템 상태를 점검하고 전반적 현황을 요약해 주세요."
+  update_system_prompt: "시스템 업데이트 정보를 수집하고 분석하는 AI 어시스턴트입니다. 현재 시스템 업데이트 상황을 점검하고 전반적 현황을 요약해 주세요."
+  provider: "gemini"
+

@@ -1,0 +1,12 @@
+# Python 기본 패키지들
+PyYAML>=6.0
+python-dotenv>=1.0.0
+
+# LLM API 지원
+google-generativeai>=0.3.0
+
+# HTTP 요청 (Discord webhook 등)
+requests>=2.31.0
+
+# 추가 유틸리티
+psutil>=5.9.0
